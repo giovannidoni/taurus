@@ -142,7 +142,7 @@ class Etoro(object):
             Parameter for POST request.
         """
 
-        url = self.api_url + endpoint
+        url = self.api_url + service
         url = add_url(url, payload)
 
         headers = {
