@@ -1,5 +1,4 @@
 rom ConfigParser import ConfigParser, RawConfigParser
-from sclutils import logger as scllog
 import os
 
 __all__ = ['Credentials']
